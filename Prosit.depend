@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1509028718 source:c:\users\steinwolf\workspace\drakestick\adrien.c
+
+1509028718 source:c:\users\steinwolf\workspace\drakestick\alexandre.c
+
+1509028718 source:c:\users\steinwolf\workspace\drakestick\francois.c
+
+1509028718 source:c:\users\steinwolf\workspace\drakestick\corentin.c
+
+1509031340 source:c:\users\steinwolf\workspace\drakestick\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Adrien.h"
+	"Alexandre.h"
+	"Corentin.h"
+	"Francois.h"
+	"PierreLoup.h"
+
+1509028718 c:\users\steinwolf\workspace\drakestick\adrien.h
+
+1509028718 c:\users\steinwolf\workspace\drakestick\alexandre.h
+
+1509028718 c:\users\steinwolf\workspace\drakestick\corentin.h
+
+1509028718 c:\users\steinwolf\workspace\drakestick\francois.h
+
+1509031288 c:\users\steinwolf\workspace\drakestick\pierreloup.h
+	<stdlib.h>
+	<stdio.h>
+

@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Alexandre.h" />
+		<Unit filename="Corentin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Corentin.h" />
 		<Unit filename="Francois.c">
 			<Option compilerVar="CC" />
 		</Unit>
