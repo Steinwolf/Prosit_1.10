@@ -5,11 +5,11 @@
 
 int carre()
 {
-    double nombre=0;
+    float nombre;
     printf("\nEntrez un nombre :");
-    scanf("%lf",&nombre);
+    scanf("%f",&nombre);
     nombre = nombre*nombre;
-    printf("%lf", nombre);
+    printf("Le resultat est :%f", nombre);
     return 0;
 }
 
