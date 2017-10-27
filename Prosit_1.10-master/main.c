@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Adrien.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    fonctionMultiplication();
     return 0;
 }

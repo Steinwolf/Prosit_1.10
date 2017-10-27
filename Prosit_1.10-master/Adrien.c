@@ -1,17 +1,29 @@
 #include "Adrien.h"
 
     //La multiplication
-int fonctionMultiplication (double nombre1, double nombre2)
+int fonctionMultiplication ()
 {
-    double sortie;
-    sortie = nombre1 * nombre2;
-    printf("Le resultat est %lf\n", sortie);
+    double nombre1, nombre2;
+    printf("Veuillez choisir le nombre 1");
+    scanf("%lf", &nombre1);
+    printf("Veuillez choisir le nombre 2");
+    scanf("%lf", &nombre2);
+    printf("Le resultat est %lf\n", nombre1*nombre2);
+
     return 0;
 }
 
     //Le polynome du second degre
-int fonctionPolynomeSecondDegre (double a, double b, double c, double delta, double x1, double x2)
+int fonctionPolynomeSecondDegre ()
 {
+    double a, b, c, delta, x1, x2;
+    printf("Veuillez choisir a");
+    scanf("%lf", &a);
+    printf("Veuillez choisir b");
+    scanf("%lf", &b);
+    printf("Veuillez choisir c");
+    scanf("%lf", &c);
+
     delta = b*b-4*a*c;
     printf("delta = %lf\n", delta);
 
@@ -34,18 +46,20 @@ int fonctionPolynomeSecondDegre (double a, double b, double c, double delta, dou
         x2 = (-b+sqrt(delta))/2*a;
         printf("x1 = %lf  x2 = %lf", x1, x2);
     }
-
     return 0;
 }
-
-int fonctionRacineCarree (double compteur, double tour)
+    //Racine carre
+int fonctionRacineCarre()
 {
-    float sortie=1;
+    double nombreSousRacine;
+    printf("Veuillez choisir le nombre sous la racine");
+    scanf("%lf", &nombreSousRacine);
+    double sortie=1;
+    int compteur;
 
-    tour = nombreSousLaRacine/2;
-    for(compteur=1; compteur<tour; compteur++)
-        {
-            sortie = (sortie + nombreSousLaRacine / sortie) / 2;
-        }
-    return sortie;
+    for((compteur=0);(compteur < (nombreSousRacine/2));(compteur++))
+    {
+        sortie=(sortie+(nombreSousRacine/sortie))/2;
+    }
+    return 0;
 }
