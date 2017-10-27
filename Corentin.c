@@ -1,8 +1,10 @@
 #include "Corentin.h"
 
 
-int fonctionPuissance(double nVP, double nP)
+int fonctionPuissance()
 {
+    double nVP,nP;
+    
     printf("Nombre dont on veut la puissance\n");
     scanf("%lf",&nVP);                                          //Demande du nombre a la puissance
     printf("Puissance\n");
@@ -12,20 +14,23 @@ int fonctionPuissance(double nVP, double nP)
     return 0;
 }
 
-int fonctionSoustraction(double nSa, double nSb)
+int fonctionSoustraction()
 {
+    double nSa,nSb;
+    
     printf("Nombre A\n");
     scanf("%lf",&nSa);                                  //Demande du nombre A
     printf("Nombre B\n");
     scanf("%lf",&nSb);                                  //Demande du nombre B
 
-    printf("%lf - %lf = %lf\n", nSa, nSb, nSa-nSb);     //Afficher le résultat
+    printf("%lf - %lf = %lf\n", nSa, nSb, nSa-nSb);     //Afficher le rÃ©sultat
     return 0;
 }
 
-int fonctionPi(int ni, double nu)
+int fonctionPi()
 {
-    nu=0.;                              //initialisation de nu
+    int ni;
+    double nu=0.;                       //initialisation de nu
     for((ni=0);(ni<999999);(ni++))      //boucle for
     {
         if (ni%2==0)                    //boucle en fonction de u
