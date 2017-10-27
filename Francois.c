@@ -9,7 +9,7 @@ int carre()
     printf("\nEntrez un nombre :");
     scanf("%f",&nombre);
     nombre = nombre*nombre;
-    printf("Le resultat est :%f", nombre);
+    printf("Le resultat est : %f", nombre);
     return 0;
 }
 
