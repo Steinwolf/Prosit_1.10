@@ -3,6 +3,6 @@
 #include <math.h>
 
 //Mettre les fonctions
-fonctionDivisionEuclidienne();
-fonctionRacineNieme();
-fonctionPGCD();
+int fonctionDivisionEuclidienne();
+int fonctionRacineNieme();
+int fonctionPGCD();

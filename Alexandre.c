@@ -5,16 +5,19 @@ int fonctionRacineNieme() //nombre1 est le nombre sous la racine carré et le no
     float nombreSousLaRacine, nombreNRacineCarre;
     int compteur,tour;
     float sortie=1;
-    printf("Veuillez choisir le nombre qui va etre sous la racine carré");
+
+    printf("\nVeuillez choisir le nombre qui va etre sous la racine carre : ");
     scanf("%f", &nombreSousLaRacine);
-    printf("Veuillez choisir le nombre qui est le N la racine carré");
+    printf("Veuillez choisir le nombre qui est le N la racine carre : ");
     scanf("%f", &nombreNRacineCarre);
+
     tour = nombreSousLaRacine; // Le nombre tour est egal au nombre sous la racine Nième pour être sûr que la boucle POUR tourne assez longtemps
     for(compteur=1; compteur<tour; compteur++) // Cette boucle for égal une racine Nième mais la fonction sqrt n'existe pas en C
         {
             sortie = (sortie + nombreSousLaRacine / sortie) / nombreNRacineCarre;
         }
-    printf("%f", sortie);
+
+    printf("Le resultat est : %f", sortie);
     return 0;
 }
 
@@ -22,10 +25,12 @@ int fonctionDivisionEuclidienne()
 {
     int sortie, reste, nombre1, nombre2;
 
-    printf("Veuillez choisir les deux nombres qui sont a diviser : ");
-    scanf("%d \n %d", &nombre1, &nombre2);
+    printf("\nVeuillez choisir les deux nombres qui sont a diviser :\n");
+    scanf("%d \n%d", &nombre1, &nombre2);
+
     sortie = nombre1 / nombre2;
     reste = nombre1 % nombre2;
+
     printf("Le reste de la division est :%d\n", reste);
     printf("Le resultat est :%d\n", sortie);
     return 0;
@@ -34,7 +39,8 @@ int fonctionDivisionEuclidienne()
 int fonctionPGCD()
 {
     int nombre1, temporaire, nombre2;
-    printf("Veuillez donner les deux nombres dont vous voullez trouver le plus grand diviseur : \n");
+
+    printf("\nVeuillez donner les deux nombres dont vous voullez trouver le plus grand diviseur : \n");
     scanf(" %d \n %d", &nombre1, &nombre2);
 
         do {
@@ -54,6 +60,7 @@ int fonctionPGCD()
             nombre1 = nombre1 - nombre2;
 
             } while (nombre1); // while s'execute tant que l'expression est different de 0.
+
     printf ("Le resultat du PGCD est :%d", nombre2);
     return 0;
 }
