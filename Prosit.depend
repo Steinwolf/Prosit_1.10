@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1509097906 source:c:\users\steinwolf\workspace\drakestick\adrien.c
+	"Adrien.h"
+
+1509097606 source:c:\users\steinwolf\workspace\drakestick\alexandre.c
+	"Alexandre.h"
+
+1509028718 source:c:\users\steinwolf\workspace\drakestick\francois.c
+
+1509097794 source:c:\users\steinwolf\workspace\drakestick\corentin.c
+	"Corentin.h"
+
+1509096434 source:c:\users\steinwolf\workspace\drakestick\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Adrien.h"
+	"Alexandre.h"
+	"Corentin.h"
+	"Francois.h"
+	"PierreLoup.h"
+
+1509097906 c:\users\steinwolf\workspace\drakestick\adrien.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1509097606 c:\users\steinwolf\workspace\drakestick\alexandre.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1509097794 c:\users\steinwolf\workspace\drakestick\corentin.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1509028718 c:\users\steinwolf\workspace\drakestick\francois.h
+
+1509096364 c:\users\steinwolf\workspace\drakestick\pierreloup.h
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+
+1509097299 source:c:\users\steinwolf\workspace\drakestick\pierreloup.c
+	"PierreLoup.h"
+
+1509066360 source:c:\users\cosmos\workspace\prosit_1.10-master\adrien.c
+	"Adrien.h"
+
+1509066360 c:\users\cosmos\workspace\prosit_1.10-master\adrien.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1509066360 source:c:\users\cosmos\workspace\prosit_1.10-master\alexandre.c
+	"Alexandre.h"
+
+1509066360 c:\users\cosmos\workspace\prosit_1.10-master\alexandre.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1509066360 source:c:\users\cosmos\workspace\prosit_1.10-master\corentin.c
+	"Corentin.h"
+
+1509066360 c:\users\cosmos\workspace\prosit_1.10-master\corentin.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1509066360 source:c:\users\cosmos\workspace\prosit_1.10-master\pierreloup.c
+	"PierreLoup.h"
+
+1509066360 c:\users\cosmos\workspace\prosit_1.10-master\pierreloup.h
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+
