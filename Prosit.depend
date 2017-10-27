@@ -5,12 +5,16 @@
 1509097606 source:c:\users\steinwolf\workspace\drakestick\alexandre.c
 	"Alexandre.h"
 
-1509028718 source:c:\users\steinwolf\workspace\drakestick\francois.c
+1509100576 source:c:\users\steinwolf\workspace\drakestick\francois.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"Francois.h"
 
 1509097794 source:c:\users\steinwolf\workspace\drakestick\corentin.c
 	"Corentin.h"
 
-1509096434 source:c:\users\steinwolf\workspace\drakestick\main.c
+1509100551 source:c:\users\steinwolf\workspace\drakestick\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Adrien.h"
@@ -34,13 +38,16 @@
 	<stdio.h>
 	<math.h>
 
-1509028718 c:\users\steinwolf\workspace\drakestick\francois.h
+1509100551 c:\users\steinwolf\workspace\drakestick\francois.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
 
 1509096364 c:\users\steinwolf\workspace\drakestick\pierreloup.h
 	<stdlib.h>
 	<stdio.h>
 	<stdint.h>
 
-1509097299 source:c:\users\steinwolf\workspace\drakestick\pierreloup.c
+1509098627 source:c:\users\steinwolf\workspace\drakestick\pierreloup.c
 	"PierreLoup.h"
 

@@ -36,7 +36,7 @@ int main()
             break;
 
             case 4:
-            //division();
+            division();
             break;
 
             case 5:
@@ -48,7 +48,7 @@ int main()
             break;
 
             case 7:
-            //carre();
+            carre();
             break;
 
             case 8:
@@ -74,7 +74,7 @@ int main()
             break;
 
             case 13:
-            //pythagore();
+            pythagore();
             break;
 
             case 14:
@@ -85,7 +85,7 @@ int main()
             printf("Choix invalide, Entrez un autre choix\n");
             break;
         }
-        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        printf("\n\n");
         printf("---- MENU ----\n1. Addition\n2. Soustraction\n3. Multiplication\n4. Division\n5. Division Euclidienne");
         printf("\n6. Polynome Degre 2\n7. Carree \n8. Puissance\n9. Racine Carree\n10. Racine Nieme");
         printf("\n11. Factorielle\n12. Approximation de Pi\n13. Pythagore\n14. PGCD\n0. QUITTER");
