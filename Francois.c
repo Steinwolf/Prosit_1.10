@@ -9,7 +9,7 @@ int carre()
     printf("\nEntrez un nombre :");
     scanf("%lf",&nombre);
     nombre = nombre*nombre;
-    printf("%lf", &nombre);
+    printf("%lf", nombre);
     return 0;
 }
 
@@ -21,18 +21,18 @@ int division (){
     printf("Nombre B\n");
     scanf("%lf",&nDb);                                  //Demande du nombre B
 
-    printf("%lf / %lf = %lf\n", nDa, nDb, nDa/nDb);     //Afficher le résultat
+    printf("%lf / %lf = %lf\n", nDa, nDb, nDa/nDb);     //Afficher le rÃ©sultat
     return 0;
 }
 
 int pythagore (){
     double cote1, cote2, cote3, hypotenuse, adjacent, oppose, hyp2, cotes2;
-    // définition des variable nessessaire à la fonction
+    // dÃ©finition des variable nessessaire Ã  la fonction
 
-    printf("entrez la longueur des trois cotés : ");
+    printf("entrez la longueur des trois cotÃ©s : ");
     scanf("%lf",&cote1);
     scanf("%lf",&cote2);
-    scanf("%lf",&cote3);                    //entrée des longueurs des cotes
+    scanf("%lf",&cote3);                    //entrÃ©e des longueurs des cotes
     if (cote1>cote2 && cote1>cote3){
         cote1=hypotenuse;
         cote2=adjacent;
@@ -46,10 +46,10 @@ int pythagore (){
     else if (cote3>cote2 && cote3>cote1){
         cote3=hypotenuse;
         cote2=adjacent;
-        cote1=oppose;                         //ces if servent a determiner le coté le plus grand
-    }                                         //pour simplifier l'écriture des calculs
+        cote1=oppose;                         //ces if servent a determiner le cotÃ© le plus grand
+    }                                         //pour simplifier l'Ã©criture des calculs
     hyp2=pow(hypotenuse, 2);
-    cotes2=pow(adjacent, 2)+pow(oppose, 2);    // application du théorème
+    cotes2=pow(adjacent, 2)+pow(oppose, 2);    // application du thÃ©orÃ¨me
     if (hyp2 == cotes2){
         printf("le triangle est rectangle");
     }
